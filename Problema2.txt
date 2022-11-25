@@ -1,0 +1,8 @@
+Para el problema 2, ambos patrones son de diseño creacional, solo que Abstract Factory
+permite la creacion de familias de objetos, sin tener que hacer mencion de su clase abstracta.
+Y como ejemplo seria el uso de diversos objetos, los cuales no tienen que depender de una superclase.
+Mietras que Factory  Method permite crear objetos de una superclase, como el siguiente
+ejemplo, en donde se decide crear diversos tipos de transportes para la entrega de 
+mercancia, entonces, dentro de los diferentes tipos de transportes, maritimos, aereos,
+carreteros, etc, todos ellos van a depender de una superclase, llamada transporte, y lo unico que 
+cambiaria serian el medio en el cual se van a transportar,

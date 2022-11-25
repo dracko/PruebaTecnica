@@ -1,0 +1,2 @@
+Yo utilizaria el patron Strategy, ya que se indica evitar el uso de IF, ademas de que se queda abierto a que diversos clientes que requieran utilizar servicios diferentes, 
+a mi consideración y de acuerdo al patron Strategy, es el que mas se adecua para este caso.
